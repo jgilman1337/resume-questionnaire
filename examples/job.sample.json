@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"version": "1.0.0"
+	},
+	"id": "change-me-to-the-work-entry-id",
+	"questions": [
+		{
+			"question": "Role and context: What was your job title, employer or product, team, and employment dates?",
+			"answer": ""
+		},
+		{
+			"question": "Product or system: What did your team build or maintain? Who used it, and what problem did it solve?",
+			"answer": ""
+		},
+		{
+			"question": "Your responsibilities: What were you expected to own or deliver? Which parts did you personally own?",
+			"answer": ""
+		},
+		{
+			"question": "Key work: What are the 2–4 most significant things you worked on? For each, what problem or need prompted the work?",
+			"answer": ""
+		},
+		{
+			"question": "Your contribution: For each item, what did you personally design, implement, debug, improve, or deliver? What did teammates do?",
+			"answer": ""
+		},
+		{
+			"question": "Technical details: Which languages, frameworks, databases, cloud services, tools, or systems did you use? How did you use them?",
+			"answer": ""
+		},
+		{
+			"question": "Engineering challenges: What was technically difficult or constrained—such as performance, reliability, security, scale, legacy code, or deadlines? What did you do about it?",
+			"answer": ""
+		},
+		{
+			"question": "Results: What changed after your work? Include measured outcomes if available, how they were measured, and the time period. If you don’t know a metric, describe the observable result.",
+			"answer": ""
+		},
+		{
+			"question": "Scope: What scale or reach can you substantiate—users, requests, data volume, services, teams, or workflows? How do you know?",
+			"answer": ""
+		},
+		{
+			"question": "Quality and operations: What did you do around testing, code review, deployment, monitoring, incident response, documentation, or maintenance?",
+			"answer": ""
+		},
+		{
+			"question": "Collaboration: Who did you work with, and how? Did you lead, mentor, unblock, or coordinate anything? Describe your specific contribution.",
+			"answer": ""
+		},
+		{
+			"question": "Best examples: Which accomplishments from this role should a resume highlight? Are there any details the agent should avoid, qualify, or verify?",
+			"answer": ""
+		}
+	]
+}

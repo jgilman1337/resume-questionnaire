@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"version": "1.0.0"
+	},
+	"id": "change-me-to-the-project-entry-id",
+	"questions": [
+		{
+			"question": "Project basics: What is the project called, when did you work on it, and was it personal, academic, open-source, or professional?",
+			"answer": ""
+		},
+		{
+			"question": "Purpose and users: What problem does it solve, and who is it for? Is it deployed or used by anyone?",
+			"answer": ""
+		},
+		{
+			"question": "Team and ownership: Did you work alone or with others? What parts did you personally build or own?",
+			"answer": ""
+		},
+		{
+			"question": "Core implementation: What are the main features or components you implemented? Describe what each does.",
+			"answer": ""
+		},
+		{
+			"question": "Technical stack: Which languages, frameworks, libraries, databases, APIs, cloud services, and tools did you use? What did you use each for?",
+			"answer": ""
+		},
+		{
+			"question": "Design decisions: What important architectural or technical choices did you make, and why? What alternatives or tradeoffs did you consider?",
+			"answer": ""
+		},
+		{
+			"question": "Hardest challenge: What was the most difficult technical problem? How did you investigate and solve it?",
+			"answer": ""
+		},
+		{
+			"question": "Engineering practices: How did you test, deploy, secure, monitor, or document the project? Mention specific tools or methods.",
+			"answer": ""
+		},
+		{
+			"question": "Results and evidence: What works now that didn’t before? Include users, usage, performance, reliability, evaluation results, or other evidence if known. How was it measured?",
+			"answer": ""
+		},
+		{
+			"question": "Current status: Is it complete, deployed, maintained, or still in progress? Where could someone see or try it, if applicable?",
+			"answer": ""
+		},
+		{
+			"question": "Learning or next steps: What did you learn, and what would you improve next?",
+			"answer": ""
+		},
+		{
+			"question": "Resume emphasis: Which parts best demonstrate your skills for software roles? Are there claims, metrics, or details that need confirmation?",
+			"answer": ""
+		}
+	]
+}

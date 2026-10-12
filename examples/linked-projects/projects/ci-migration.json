@@ -3,6 +3,7 @@
     "version": "1.0.0"
   },
   "id": "ci-migration",
+  "role": "project",
   "questions": [
     {
       "question": "Why did this project exist (problem statement)?",

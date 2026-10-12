@@ -3,6 +3,7 @@
     "version": "1.0.0"
   },
   "id": "change-me-to-the-work-entry-id",
+  "role": "work",
   "questions": [
     {
       "question": "What three themes should a reader take away from your resume in the first 10 seconds?",

@@ -3,6 +3,7 @@
 		"version": "1.0.0"
 	},
 	"id": "change-me-to-the-project-entry-id",
+	"role": "project",
 	"questions": [
 		{
 			"question": "Project basics: What is the project called, when did you work on it, and was it personal, academic, open-source, or professional?",

@@ -4,7 +4,7 @@
 	"title": "Questionnaire",
 	"type": "object",
 	"additionalProperties": false,
-	"required": ["meta", "id", "questions"],
+	"required": ["meta", "id", "role", "questions"],
 	"properties": {
 		"meta": {
 			"description": "The schema version and any other tooling configuration lives here. Copied from the resume schema meta object.",
@@ -12,8 +12,13 @@
 		},
 		"id": {
 			"type": "string",
-			"description": "Join key for one work, project, or volunteer entry. Must equal that entry's id.",
+			"description": "Join key for one work, project, or volunteer entry, or a stable id for the cover letter questionnaire. For work, project, and volunteer, must equal that entry's id.",
 			"minLength": 1
+		},
+		"role": {
+			"type": "string",
+			"description": "Which kind of questionnaire this is.",
+			"enum": ["project", "work", "volunteer", "coverletter"]
 		},
 		"questions": {
 			"type": "array",

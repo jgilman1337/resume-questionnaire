@@ -3,6 +3,7 @@
 		"version": "1.0.0"
 	},
 	"id": "change-me-to-the-work-entry-id",
+	"role": "work",
 	"questions": [
 		{
 			"question": "Role and context: What was your job title, employer or product, team, and employment dates?",

@@ -1,0 +1,113 @@
+{
+	"meta": {
+		"version": "1.0.0"
+	},
+	"id": "cover-letter",
+	"role": "coverletter",
+	"questions": [
+		{
+			"question": "What kinds of roles are you targeting? Include titles, seniority, and areas of computer science or software engineering.",
+			"answer": ""
+		},
+		{
+			"question": "What work do you most want to do? What kinds of problems, systems, or users interest you?",
+			"answer": ""
+		},
+		{
+			"question": "What work or environments do you want to avoid?",
+			"answer": ""
+		},
+		{
+			"question": "What are your strongest 3–5 professional qualities? For each, give a brief example that demonstrates it.",
+			"answer": ""
+		},
+		{
+			"question": "What do you want an employer to remember about you after reading your application?",
+			"answer": ""
+		},
+		{
+			"question": "Which 3–5 accomplishments from your experience best represent your strengths? For each, note your contribution and the result; refer the agent to your master resume or role/project questionnaires for details.",
+			"answer": ""
+		},
+		{
+			"question": "What technical strengths do you want highlighted? For each, give evidence of how you’ve used it.",
+			"answer": ""
+		},
+		{
+			"question": "What nontechnical strengths are relevant to your work—such as communication, initiative, mentoring, or handling ambiguity? Give an example for each.",
+			"answer": ""
+		},
+		{
+			"question": "What kind of teammate are you? Describe how you collaborate, give or receive feedback, and handle disagreements.",
+			"answer": ""
+		},
+		{
+			"question": "What is one example of a challenge, setback, or mistake that changed how you work? What did you learn?",
+			"answer": ""
+		},
+		{
+			"question": "What genuinely motivates you about software or computer science?",
+			"answer": ""
+		},
+		{
+			"question": "What types of products, industries, users, or technical challenges are especially meaningful to you? Why?",
+			"answer": ""
+		},
+		{
+			"question": "Are there causes, values, or mission areas you care about? Which ones, and how do they relate to your work?",
+			"answer": ""
+		},
+		{
+			"question": "What would make a role a good fit for you beyond the job title?",
+			"answer": ""
+		},
+		{
+			"question": "What claims about your interests or motivations would feel inaccurate or too strong?",
+			"answer": ""
+		},
+		{
+			"question": "What location, work arrangement, or relocation preferences should the agent know?",
+			"answer": ""
+		},
+		{
+			"question": "Are there employment, education, or career-transition details that need brief context? State what may be shared and how you’d like it phrased.",
+			"answer": ""
+		},
+		{
+			"question": "Are there gaps, changes, or constraints the agent should not explain or mention unless specifically asked?",
+			"answer": ""
+		},
+		{
+			"question": "What contact details, links, or sign-off should appear?",
+			"answer": ""
+		},
+		{
+			"question": "Are there any topics the agent must never disclose or include?",
+			"answer": ""
+		},
+		{
+			"question": "What tone should the letters use—for example, direct, warm, formal, or conversational?",
+			"answer": ""
+		},
+		{
+			"question": "What length do you prefer?",
+			"answer": ""
+		},
+		{
+			"question": "Do you want a conventional letter format, or a shorter email-style letter?",
+			"answer": ""
+		},
+		{
+			"question": "What phrases, clichés, or styles should the agent avoid?",
+			"answer": ""
+		},
+		{
+			"question": "Should the agent mention salary, availability, work authorization, or other practical matters? Specify when, if ever.",
+			"answer": ""
+		},
+		{
+			"question": "What should the agent do when the job description doesn’t provide enough company-specific information to write a sincere, tailored opening?",
+			"answer": ""
+		}
+	]
+}

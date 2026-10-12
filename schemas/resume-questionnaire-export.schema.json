@@ -2,6 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/jgilman1337/resume-questionnaire/refs/heads/master/schemas/resume-questionnaire-export.schema.json",
   "title": "ResumeQuestionnaireExportV1",
+  "description": "One job export. questions is required. schemaVersion is required when meta is present.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["questions"],
+  "dependentRequired": {
+    "meta": ["schemaVersion"]
+  },
   "$defs": {
     "questionPair": {
       "type": "object",
@@ -45,60 +52,36 @@
       }
     }
   },
-  "oneOf": [
-    {
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "meta": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["questions"],
       "properties": {
-        "schemaVersion": {
+        "experienceLabel": {
           "type": "string",
-          "const": "1.0.0"
+          "description": "e.g. Acme Corp — Senior Software Engineer"
         },
-        "questions": {
-          "$ref": "#/$defs/questionsArray"
+        "dateRange": {
+          "type": "string",
+          "description": "e.g. Jan 2022 – Present"
         },
-        "projectRefs": {
-          "$ref": "#/$defs/projectRefs"
+        "location": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
         }
       }
     },
-    {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["schemaVersion", "meta", "questions"],
-      "properties": {
-        "schemaVersion": {
-          "type": "string",
-          "const": "1.0.0"
-        },
-        "meta": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "experienceLabel": {
-              "type": "string",
-              "description": "e.g. Acme Corp — Senior Software Engineer"
-            },
-            "dateRange": {
-              "type": "string",
-              "description": "e.g. Jan 2022 – Present"
-            },
-            "location": {
-              "type": "string"
-            },
-            "notes": {
-              "type": "string"
-            }
-          }
-        },
-        "questions": {
-          "$ref": "#/$defs/questionsArray"
-        },
-        "projectRefs": {
-          "$ref": "#/$defs/projectRefs"
-        }
-      }
+    "questions": {
+      "$ref": "#/$defs/questionsArray"
+    },
+    "projectRefs": {
+      "$ref": "#/$defs/projectRefs"
     }
-  ]
+  }
 }

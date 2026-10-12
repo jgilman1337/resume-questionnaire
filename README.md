@@ -51,7 +51,7 @@ A single source of truth for a **fill once, tailor many times** resume workflow:
 }
 ```
 
-Optional: include **`meta`** (`experienceLabel`, `dateRange`, `location`, `notes`) alongside `schemaVersion` and `questions` — see the schema’s second variant and `examples/export.full.json`.
+Optional: include **`meta`** (`experienceLabel`, `dateRange`, `location`, `notes`) alongside `schemaVersion` and `questions`. When `meta` is present, `schemaVersion` is required. See `examples/export.full.json`.
 
 ## Validation
 

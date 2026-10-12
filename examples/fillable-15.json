@@ -1,11 +1,8 @@
 {
-  "schemaVersion": "1.0.0",
   "meta": {
-    "experienceLabel": "",
-    "dateRange": "",
-    "location": "",
-    "notes": "SCOPE: This file = ONE job (one employer/role/dates). The last three questions (76, 81, 97) = ONE flagship project AT that job—not a separate job line. For more projects, duplicate those three rows with different answers or prefix answers with the project name. 15-prompt subset bank IDs: 5, 13, 14, 17, 22, 41, 42, 51, 61, 72, 76, 81, 97, 141, 147. Omit empty answers when exporting."
+    "version": "1.0.0"
   },
+  "id": "change-me-to-the-work-entry-id",
   "questions": [
     {
       "question": "What three themes should a reader take away from your resume in the first 10 seconds?",

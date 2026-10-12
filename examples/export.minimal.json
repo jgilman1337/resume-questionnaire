@@ -1,5 +1,8 @@
 {
-  "schemaVersion": "1.0.0",
+  "meta": {
+    "version": "1.0.0"
+  },
+  "id": "riverbank-senior-engineer",
   "questions": [
     {
       "question": "Exact job title(s) as you want them on the resume (include level if relevant).",

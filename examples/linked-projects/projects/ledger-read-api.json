@@ -1,10 +1,8 @@
 {
-  "schemaVersion": "1.0.0",
-  "projectMeta": {
-    "id": "ledger-read-api",
-    "name": "Ledger read API",
-    "parentJobFile": "../riverbank-senior-engineer-2021-present.json"
+  "meta": {
+    "version": "1.0.0"
   },
+  "id": "ledger-read-api",
   "questions": [
     {
       "question": "Why did this project exist (problem statement)?",

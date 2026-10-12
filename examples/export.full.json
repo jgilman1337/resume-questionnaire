@@ -1,11 +1,10 @@
 {
-  "schemaVersion": "1.0.0",
   "meta": {
-    "experienceLabel": "Riverbank Payments — Senior Software Engineer",
-    "dateRange": "Mar 2021 – Present",
-    "location": "Remote (US)",
-    "notes": "Example export; replace with your facts."
+    "version": "1.0.0",
+    "canonical": "https://example.com/questionnaires/riverbank-senior-engineer",
+    "lastModified": "2026-01-15T12:00:00Z"
   },
+  "id": "riverbank-senior-engineer",
   "questions": [
     {
       "question": "What job titles or levels are you targeting next (be specific: e.g. Staff Engineer, EM L5)?",

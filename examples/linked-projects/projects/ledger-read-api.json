@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectMeta": {
+    "id": "ledger-read-api",
+    "name": "Ledger read API",
+    "parentJobFile": "../riverbank-senior-engineer-2021-present.json"
+  },
+  "questions": [
+    {
+      "question": "Why did this project exist (problem statement)?",
+      "answer": "Support and internal tools were hitting OLTP directly; needed read replica + caching layer with SLOs."
+    },
+    {
+      "question": "What was uniquely yours on this project?",
+      "answer": "Designed read path, cache invalidation contract with Ledger team, and load tests."
+    },
+    {
+      "question": "What metrics moved post-launch (or what qualitative signal confirmed success)?",
+      "answer": "p95 read latency 120ms→35ms; OLTP CPU down ~40% on support traffic."
+    }
+  ]
+}

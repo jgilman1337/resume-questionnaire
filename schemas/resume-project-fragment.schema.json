@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/jgilman1337/resume-questionnaire/refs/heads/master/schemas/resume-project-fragment.schema.json",
+  "title": "ResumeQuestionnaireProjectFragmentV1",
+  "description": "One project’s answers, stored in a file separate from the parent job export. Paths are linked from the job file via projectRefs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "questions"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "projectMeta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable slug; should match projectRefs[].id in the parent job file."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable project name for UIs."
+        },
+        "parentJobFile": {
+          "type": "string",
+          "description": "Optional relative path back to the job JSON (documentation / tooling)."
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "answer": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

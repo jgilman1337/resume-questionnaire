@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectMeta": {
+    "id": "ci-migration",
+    "name": "CI migration",
+    "parentJobFile": "../riverbank-senior-engineer-2021-present.json"
+  },
+  "questions": [
+    {
+      "question": "Why did this project exist (problem statement)?",
+      "answer": "Jenkins queue blocked deploys; team wanted GitHub Actions + reusable workflows."
+    },
+    {
+      "question": "What was uniquely yours on this project?",
+      "answer": "Led migration for payments repos, secret handling, and deploy smoke suite."
+    },
+    {
+      "question": "What metrics moved post-launch (or what qualitative signal confirmed success)?",
+      "answer": "Median time from merge to prod deploy ~90m→25m; flaky test rate cut roughly in half."
+    }
+  ]
+}

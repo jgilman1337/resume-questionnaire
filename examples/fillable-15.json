@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0.0",
+  "meta": {
+    "experienceLabel": "",
+    "dateRange": "",
+    "location": "",
+    "notes": "SCOPE: This file = ONE job (one employer/role/dates). The last three questions (76, 81, 97) = ONE flagship project AT that job—not a separate job line. For more projects, duplicate those three rows with different answers or prefix answers with the project name. 15-prompt subset bank IDs: 5, 13, 14, 17, 22, 41, 42, 51, 61, 72, 76, 81, 97, 141, 147. Omit empty answers when exporting."
+  },
+  "questions": [
+    {
+      "question": "What three themes should a reader take away from your resume in the first 10 seconds?",
+      "answer": ""
+    },
+    {
+      "question": "Exact job title(s) as you want them on the resume (include level if relevant).",
+      "answer": ""
+    },
+    {
+      "question": "Employer name (and parent company if known/acquired).",
+      "answer": ""
+    },
+    {
+      "question": "Start date (month/year) and end date or \"Present\".",
+      "answer": ""
+    },
+    {
+      "question": "In plain language, what does the company do and who pays for it (B2B, B2C, internal)?",
+      "answer": ""
+    },
+    {
+      "question": "In 2–3 sentences, what were you hired to do?",
+      "answer": ""
+    },
+    {
+      "question": "In 2–3 sentences, what did you **actually** end up doing (often broader/narrower)?",
+      "answer": ""
+    },
+    {
+      "question": "What did you own end-to-end (codebase, service, product area, process)?",
+      "answer": ""
+    },
+    {
+      "question": "List up to 10 measurable outcomes tied to your work (metric + before/after or absolute result).",
+      "answer": ""
+    },
+    {
+      "question": "If you had to pick **one** headline metric for this role, what would it be?",
+      "answer": ""
+    },
+    {
+      "question": "Why did this project exist (problem statement)?",
+      "answer": ""
+    },
+    {
+      "question": "What was uniquely yours on this project?",
+      "answer": ""
+    },
+    {
+      "question": "What metrics moved post-launch (or what qualitative signal confirmed success)?",
+      "answer": ""
+    },
+    {
+      "question": "What might a skeptical interviewer doubt—what evidence addresses that doubt?",
+      "answer": ""
+    },
+    {
+      "question": "List tools, frameworks, and cloud services you can defend in interview (comma-separated or bullets).",
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "meta": {
+    "experienceLabel": "Riverbank Payments — Senior Software Engineer",
+    "dateRange": "Mar 2021 – Present",
+    "location": "Remote (US)",
+    "notes": "Job-level facts. Project details live in separate files listed in projectRefs (paths relative to this file)."
+  },
+  "questions": [
+    {
+      "question": "Exact job title(s) as you want them on the resume (include level if relevant).",
+      "answer": "Senior Software Engineer"
+    },
+    {
+      "question": "Employer name (and parent company if known/acquired).",
+      "answer": "Riverbank Payments"
+    },
+    {
+      "question": "List up to 10 measurable outcomes tied to your work (metric + before/after or absolute result).",
+      "answer": "Across projects: cut refund p95 latency 800ms→220ms; reduced payment Sev2+ incidents ~4/mo→<1/mo; saved ~$200k/yr infra after rightsizing."
+    }
+  ],
+  "projectRefs": [
+    {
+      "id": "refund-hardening",
+      "file": "projects/refund-hardening.json"
+    },
+    {
+      "id": "ledger-read-api",
+      "file": "projects/ledger-read-api.json"
+    },
+    {
+      "id": "ci-migration",
+      "file": "projects/ci-migration.json"
+    }
+  ]
+}

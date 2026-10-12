@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "questions": [
+    {
+      "question": "Exact job title(s) as you want them on the resume (include level if relevant).",
+      "answer": "Senior Software Engineer"
+    },
+    {
+      "question": "In 2–3 sentences, what were you hired to do?",
+      "answer": "Lead reliability and incremental delivery for the payments API surface; partner with product on refund and dispute flows."
+    },
+    {
+      "question": "List up to 10 measurable outcomes tied to your work (metric + before/after or absolute result).",
+      "answer": "Cut p95 latency for refund POST from 800ms to 220ms; reduced payment-related incidents from ~4/month to <1/month over two quarters."
+    }
+  ]
+}

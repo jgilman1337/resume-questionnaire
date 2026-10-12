@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0.0",
+  "meta": {
+    "experienceLabel": "Riverbank Payments — Senior Software Engineer",
+    "dateRange": "Mar 2021 – Present",
+    "location": "Remote (US)",
+    "notes": "Example export; replace with your facts."
+  },
+  "questions": [
+    {
+      "question": "What job titles or levels are you targeting next (be specific: e.g. Staff Engineer, EM L5)?",
+      "answer": "Staff Engineer or principal IC on platform/reliability; open to small team lead without full-time people management."
+    },
+    {
+      "question": "What three themes should a reader take away from your resume in the first 10 seconds?",
+      "answer": "Reliability at scale, cross-team execution, measurable customer and business impact."
+    },
+    {
+      "question": "Exact job title(s) as you want them on the resume (include level if relevant).",
+      "answer": "Senior Software Engineer"
+    },
+    {
+      "question": "Employer name (and parent company if known/acquired).",
+      "answer": "Riverbank Payments (Series C fintech)."
+    },
+    {
+      "question": "Start date (month/year) and end date or \"Present\".",
+      "answer": "Mar 2021 – Present"
+    },
+    {
+      "question": "In plain language, what does the company do and who pays for it (B2B, B2C, internal)?",
+      "answer": "B2B payment orchestration and settlement APIs for marketplaces and SaaS; revenue from transaction fees and enterprise contracts."
+    },
+    {
+      "question": "What was your team called, and where did it sit in the org chart (product line, platform, infra)?",
+      "answer": "Payments Core — reported under Platform Engineering; sibling teams for ledger and risk."
+    },
+    {
+      "question": "Were you on-call? Describe rotation length, severity of pages, and ownership boundaries.",
+      "answer": "Weekly primary/secondary rotation; Sev1–2 for API errors and settlement delays; owned runbooks for refund pipeline."
+    },
+    {
+      "question": "In 2–3 sentences, what were you hired to do?",
+      "answer": "Own reliability and incremental delivery for external payments APIs; work with product on refunds, disputes, and idempotency guarantees."
+    },
+    {
+      "question": "In 2–3 sentences, what did you actually end up doing (often broader/narrower)?",
+      "answer": "Also drove observability standards, led one large Kafka→queue migration, mentored two mid-level engineers, and represented eng in quarterly planning."
+    },
+    {
+      "question": "What did you own end-to-end (codebase, service, product area, process)?",
+      "answer": "Refund and adjustment service (Go), related async workers, SLOs, and incident response for that slice."
+    },
+    {
+      "question": "List up to 10 measurable outcomes tied to your work (metric + before/after or absolute result).",
+      "answer": "p95 refund API 800ms→220ms; payment incidents 4/mo→<1/mo; saved ~$200k/yr AWS after rightsizing and deduping egress; MTTR for refund Sev2 down 35%."
+    },
+    {
+      "question": "What was the business impact of your top 3 wins (revenue, cost, risk reduction, time-to-market)?",
+      "answer": "Fewer failed refunds reduced support load and churn risk; cost savings in infra; faster releases for compliance-driven changes."
+    },
+    {
+      "question": "Project name (internal or customer-facing). [Project: Refund pipeline hardening]",
+      "answer": "Project Northstar — refund pipeline reliability and observability overhaul."
+    },
+    {
+      "question": "Why did this project exist (problem statement)? [Project: Refund pipeline hardening]",
+      "answer": "Opaque failures and retries were causing duplicate credits and support escalations during peak load."
+    },
+    {
+      "question": "List every technology materially used (languages, frameworks, infra, data stores, messaging). [Project: Refund pipeline hardening]",
+      "answer": "Go, gRPC, PostgreSQL, Kafka (later SQS), Redis, Kubernetes, Datadog, Terraform."
+    },
+    {
+      "question": "For each major technology: what did it let you accomplish that would have been harder otherwise? [Project: Refund pipeline hardening]",
+      "answer": "Go+K8s for predictable deploys; PG for strong consistency on adjustments; Kafka then SQS for decoupled retry semantics; Datadog for trace-backed SLOs."
+    },
+    {
+      "question": "Would you choose the same stack again for a similar problem—why or why not? [Project: Refund pipeline hardening]",
+      "answer": "Yes on Go/PG/K8s; would pick managed queue sooner (SQS) over self-managed Kafka for our scale and ops load."
+    },
+    {
+      "question": "How did you approach observability (logs, metrics, traces, alerts)—what did you instrument?",
+      "answer": "RED metrics per endpoint, trace IDs through async jobs, SLO dashboards, paging only on user-visible error budget burn."
+    },
+    {
+      "question": "Describe a time you aligned multiple teams toward a shared deadline.",
+      "answer": "Coordinated ledger, risk, and support for a regulatory reporting change; shared cutover checklist and daily 15m sync for two weeks."
+    },
+    {
+      "question": "What might a skeptical interviewer doubt—what evidence addresses that doubt?",
+      "answer": "Might think I only did features — point to SLO ownership, incident reviews authored, and infra cost work with finance sign-off."
+    },
+    {
+      "question": "If you could change one thing about this role or company while you were there, what would it be—and what does that say about what you value?",
+      "answer": "Earlier investment in load testing in staging; value proactive validation over heroics in prod."
+    },
+    {
+      "question": "List tools, frameworks, and cloud services you can defend in interview (comma-separated or bullets).",
+      "answer": "Go, PostgreSQL, Kafka, SQS, Redis, Kubernetes, AWS (EKS, RDS), Terraform, Datadog, GitHub Actions."
+    },
+    {
+      "question": "Paste a sample target job description (or bullet list) you care about—what matches strongly vs weakly?",
+      "answer": "Strong: distributed systems, payments, SLOs, on-call. Weaker: heavy ML pipeline ownership — adjacent only via analytics for experiments."
+    }
+  ]
+}

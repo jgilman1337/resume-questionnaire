@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectMeta": {
+    "id": "refund-hardening",
+    "name": "Refund hardening",
+    "parentJobFile": "../riverbank-senior-engineer-2021-present.json"
+  },
+  "questions": [
+    {
+      "question": "Why did this project exist (problem statement)?",
+      "answer": "Duplicate credits and unclear retries under peak load; regulatory pressure to improve traceability."
+    },
+    {
+      "question": "What was uniquely yours on this project?",
+      "answer": "Owned idempotency keys, retry semantics, and joint cutover plan with Risk."
+    },
+    {
+      "question": "What metrics moved post-launch (or what qualitative signal confirmed success)?",
+      "answer": "Duplicate credit tickets dropped ~90% in first month; error budget stable through Black Friday."
+    }
+  ]
+}

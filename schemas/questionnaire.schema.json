@@ -1,0 +1,66 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"$id": "https://raw.githubusercontent.com/jgilman1337/resume-questionnaire/refs/heads/master/schemas/questionnaire.schema.json",
+	"title": "Questionnaire",
+	"type": "object",
+	"additionalProperties": false,
+	"required": ["meta", "id", "questions"],
+	"properties": {
+		"meta": {
+			"description": "The schema version and any other tooling configuration lives here. Copied from the resume schema meta object.",
+			"$ref": "#/definitions/meta"
+		},
+		"id": {
+			"type": "string",
+			"description": "Join key for one work, project, or volunteer entry. Must equal that entry's id.",
+			"minLength": 1
+		},
+		"questions": {
+			"type": "array",
+			"description": "Question and answer pairs for this resume entry.",
+			"minItems": 1,
+			"items": {
+				"$ref": "#/definitions/question"
+			}
+		}
+	},
+	"definitions": {
+		"meta": {
+			"type": "object",
+			"description": "The schema version and any other tooling configuration lives here.",
+			"additionalProperties": false,
+			"properties": {
+				"canonical": {
+					"type": "string",
+					"description": "URL (as per RFC 3986) to latest version of this document.",
+					"format": "uri"
+				},
+				"version": {
+					"type": "string",
+					"description": "A version field which follows semver - e.g. `1.0.0`. Regexp is per the recommendation of semver.org",
+					"pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+				},
+				"lastModified": {
+					"type": "string",
+					"description": "Using ISO 8601 with 'YYYY-MM-DDThh:mm:ss'.",
+					"format": "date-time"
+				}
+			},
+			"required": ["version"]
+		},
+		"question": {
+			"type": "object",
+			"additionalProperties": false,
+			"required": ["question", "answer"],
+			"properties": {
+				"question": {
+					"type": "string",
+					"minLength": 1
+				},
+				"answer": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

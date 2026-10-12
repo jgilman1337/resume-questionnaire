@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft-07/schema",
-	"$id": "https://raw.githubusercontent.com/jgilman1337/resume-questionnaire/refs/heads/master/schemas/questionnaire.schema.json",
+	"$id": "https://raw.githubusercontent.com/jgilman1337/resume-questionnaire/refs/heads/master/questionnaire.schema.json",
 	"title": "Questionnaire",
 	"type": "object",
 	"additionalProperties": false,
